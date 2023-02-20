@@ -1,1 +1,0 @@
-the project contains a class that simulates font highlighting as in compilers
