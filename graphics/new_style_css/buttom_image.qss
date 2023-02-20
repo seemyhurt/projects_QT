@@ -1,0 +1,16 @@
+/* Simple Style */
+QWidget {
+	background: blасk;
+	}
+QPushButton{
+	border-image: url(/home/seemyhurt/Изображения/off_bttn.png) 5;
+	border-width: 5;
+	}
+QPushButton:hover{
+	border-image: url(/home/seemyhurt/Изображения/hover_bttn.png) 5;
+	border-width: 5;
+	}
+QPushButton:pressed{
+	border-image: url(/home/seemyhurt/Изображения/on_bttn.png) 5px;
+	border-width: 5;
+	}

@@ -1,0 +1,27 @@
+/* Simple Style */
+QWidget {
+	background: black;
+	}
+QPushButton{
+	min-width: 300;
+	min-height: 100;
+	background: qlineargradient(x1 :0 , y1:1, x2:0, y2 : 0 ,
+					stop: 1 rgb(133,133,135) ,
+					stop: 0.4 rgb(31, 31, 33)) ;
+	color: white;
+	border: 3 solid white;
+	border-radius:10;
+	}
+QPushButton:hover {
+	background: qlineargradient( x1:0, y1:1, x2:0, y2: 0 ,
+					stop:1 rgb(133,133,135 ) ,
+					stop:0.4 rgb(31, 31, 33),
+					stop: 0.2 rgb( 0, 0 , 150) ) ;
+	}
+QPushButton:pressed {
+	background: qlineargradient(x1:0, y1:0, x2:1, y2: 0 ,
+					stop: 0 rgba(1, 1, 5, 80),
+					stop: 0.6 rgba(18, 18 , 212, 80),
+					stop:0.5 rgba(142, 142 , 245, 80 )) ;
+	border: 3 solid rgb(18 , 18 , 212) ;
+	}
