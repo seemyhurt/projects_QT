@@ -1,0 +1,1 @@
+Simple MDI-app to work with multiple open documents
