@@ -1,0 +1,1 @@
+Multimedia class-a widget that allows you to play video files
