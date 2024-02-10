@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/proto">
+        <file>map.jpg</file>
+    </qresource>
+</RCC>

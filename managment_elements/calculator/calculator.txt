@@ -1,1 +1,0 @@
-A calculator class project for calculating simple mathematical expressions, but with the usual user interface

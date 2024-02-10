@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/proto">
+        <file>picture.jpg</file>
+    </qresource>
+</RCC>

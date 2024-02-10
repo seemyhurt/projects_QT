@@ -1,1 +1,0 @@
-The program is a widget for viewing the file system

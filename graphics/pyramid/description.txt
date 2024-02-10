@@ -1,1 +1,0 @@
-Pyramid implementation using the OpenGL library in QT

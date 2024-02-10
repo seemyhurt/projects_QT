@@ -1,1 +1,0 @@
-An application that interacts with the system tray

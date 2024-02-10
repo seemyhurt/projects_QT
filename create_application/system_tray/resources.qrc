@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/proto">
+        <file>picture_1.jpg</file>
+        <file>picture_2.jpg</file>
+    </qresource>
+</RCC>
