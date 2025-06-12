@@ -9,7 +9,7 @@
 WebBrowser::WebBrowser(QWidget *parent)
     : QWidget(parent)
 {
-    m_ptxt = new QLineEdit("http://www.bhv.ru");
+    m_ptxt = new QLineEdit("https://eyes.nasa.gov/apps/solar-system/#/home");
     m_pwv = new QWebEngineView;
     m_pcmdBack = new QPushButton("<");
     m_pcmdForward = new QPushButton(">");
@@ -53,7 +53,8 @@ void WebBrowser::slotGo()
 {
     if (!m_ptxt->text().startsWith("ftp://")
     &&  !m_ptxt->text().startsWith("http://")
-    &&  !m_ptxt->text().startsWith("gopher://"))
+    &&  !m_ptxt->text().startsWith("gopher://")
+    &&  !m_ptxt->text().startsWith("https://"))
     {
         m_ptxt->setText("http://" + m_ptxt->text());
     }
